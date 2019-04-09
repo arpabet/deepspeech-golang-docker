@@ -1,6 +1,6 @@
 FROM shvid/ubuntu-golang:1.12.2-17c7499
 
-ARG DS_VER=0.4.1
+ARG DS_VER
 
 RUN apt-get install -y xz-utils && \
     echo "Download DeepSpeech" && \
