@@ -5,7 +5,7 @@ Docker container for DeepSpeech with Ubuntu and Golang
 ### Docker image
 
 ```
-docker run arpabet/deepspeech go version
+docker run arpabet/deepspeech-golang go version
 ```
 
 ### Build
