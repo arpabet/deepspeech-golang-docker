@@ -6,7 +6,7 @@
 #
 
 DS_VER := 0.4.1
-IMAGE := deepspeech
+IMAGE := deepspeech-golang
 VERSION := $(DS_VER)-$(shell git describe --tags --always --dirty)
 REGISTRY := arpabet
 
