@@ -1,5 +1,5 @@
 FROM shvid/ubuntu-golang:1.12.2-17c7499
-
+MAINTAINER Alex Shvid <alex@shvid.com>
 ARG DS_VER
 
 RUN apt-get install -y xz-utils && \
